@@ -24,7 +24,6 @@ function lunchController($scope){
 			$scope.messageStyle = {"color":"red"};
 			$scope.message = "Please enter data first"
 		}
-
 	};
 };
 
