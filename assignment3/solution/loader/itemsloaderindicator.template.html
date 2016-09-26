@@ -1,6 +1,6 @@
 <div >
 	<h3 ng-if="narrow.notFound">{{narrow.notFound}}</h3>
-    <ul ng-repeat="foundItem in narrow.found | orderBy: 'short_name'">
+    <ul ng-repeat="foundItem in narrow.found ">
         <li > {{foundItem.short_name}} , {{foundItem.name}} , {{foundItem.description}} 
         <button class="btn btn-primary" ng-click="onRemove({index:$index})">Don't want this one!</button>
     	</li>
