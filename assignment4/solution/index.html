@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Menu App Router</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Styles definitions-->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body ng-app="MenuApp" >
+
+    <ui-view> </ui-view>
+
+    <!-- Angular & Angular-ui-router definitions-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules definitions-->
+    <script src="src/menu/menuapp.module.js"></script>
+    <script src="src/data/data.module.js"></script>
+    <!-- Service definition-->
+    <script src="src/data/menudata.service.js"></script>
+    <!-- Controller definitions-->
+    <script src="src/data/categories.controller.js"></script>
+    <script src="src/data/category-detail.controller.js"></script>
+    <!-- Component definitions-->
+    <script src="src/data/categories.component.js"></script>
+    <script src="src/data/items.component.js"></script>
+    <!-- Route definition-->
+    <script src="src/menu/menuapp.routes.js"></script>
+
+  </body>
+</html>
