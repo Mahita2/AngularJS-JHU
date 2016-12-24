@@ -36,6 +36,10 @@ We’ll set up routing so our SPA can have multiple views. We will also learn ho
 * Visit With Client, Old Site Overview, Restaurant Server Setup
 * Coding the Restaurant Site in AngularJS
 
+
+#### Taught by: 
+* Yaakov Chaikin - Adjunct Professor, Graduate Computer Science - Whiting School of Engineering
+
 ### Rating :full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::full_moon: 
 ### Difficulty :full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::new_moon::new_moon::new_moon:
 
